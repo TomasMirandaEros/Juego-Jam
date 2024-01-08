@@ -1,0 +1,14 @@
+StaticBody3D
+DirectionalLight3D
+CollisionShape3D
+Camera3D
+CSGSphere3D
+CSGCylinder3D
+CharacterBody3D
+CSGCombiner3D
+Node3D
+CSGBox3D
+CSGMesh3D
+CSGPolygon3D
+RigidBody3D
+Area3D
