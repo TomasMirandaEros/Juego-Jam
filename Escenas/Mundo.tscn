@@ -1,9 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://fhotoe551l72"]
-
-[ext_resource type="Script" path="res://Escenas/Mundo.gd" id="1_bpkv4"]
-
-[node name="Mundo" type="Node3D"]
-script = ExtResource("1_bpkv4")
-
-[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
-transform = Transform3D(0.999199, -0.019038, 0.0351885, -0.00560253, 0.804279, 0.594225, -0.0396142, -0.593946, 0.803529, 0.368933, 5.99711, 7.83737)

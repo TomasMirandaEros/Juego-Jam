@@ -1,17 +1,11 @@
-res://Escenas/Base isla.tscn
-res://Escenas/2_alas_dir_2_aujeros_dirHorizontal.tscn
-res://Escenas/Pieza 1.tscn
-res://Escenas/Pieza5.tscn
-res://Escenas/Pieza6.tscn
 res://Escenas/Mundo.tscn
+res://Escenas/Pieza 1.tscn
 res://Escenas/Pieza 2.tscn
 res://Escenas/Pieza 3.tscn
 res://Escenas/Pieza 4.tscn
 res://Escenas/Pieza 5.tscn
+res://Escenas/Pieza 6.tscn
 res://Escenas/Pieza 7.tscn
 res://Escenas/Pieza 8.tscn
 res://Escenas/Pieza 9.tscn
-res://Escenas/Pieza 6.tscn
-res://Scripts/CharacterBody3D.gd
 res://Escenas/character_body_3d.tscn
-res://Escenas/Mundo.gd
