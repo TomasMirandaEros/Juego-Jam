@@ -1,11 +1,21 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1704760427
+::res://::1704763447
 README.md::TextFile::-1::1704734379::0::1::::<><>::
 ::res://Animaciones/::1704734493
-::res://Escenas/::1704758406
+::res://Escenas/::1704763231
 character_body_2d.tscn::PackedScene::6787653099659223378::1704758349::0::1::::<><>::
 icon.svg::CompressedTexture2D::572138858557570865::1704733623::1704758205::1::::<><>::
 Icono purba.tscn::PackedScene::2508574167079671209::1704758337::0::1::::<><>::uid://iffbqgghwnin::::res://Escenas/icon.svg
 ::res://Materiales/::1704734479
 ::res://Modelos/::1704734486
 ::res://Scripts/::1704758288
+::res://sprites fichas/::1704763447
+ficha1.png::CompressedTexture2D::5143952113100280202::1704763447::1704763447::1::::<><>::
+ficha3.png::CompressedTexture2D::3001022434960279765::1704763447::1704763447::1::::<><>::
+ficha4.png::CompressedTexture2D::1739006701012670592::1704763447::1704763447::1::::<><>::
+ficha6.png::CompressedTexture2D::6230184794889889892::1704763447::1704763447::1::::<><>::
+ficha7.png::CompressedTexture2D::8600239438963166518::1704763447::1704763447::1::::<><>::
+ficha9.png::CompressedTexture2D::2819933053966822419::1704763447::1704763447::1::::<><>::
+ficha 2.png::CompressedTexture2D::6115630894519835382::1704763447::1704763447::1::::<><>::
+pieza 5.png::CompressedTexture2D::353843581749342924::1704763447::1704763447::1::::<><>::
+pieza 8.png::CompressedTexture2D::421324843631214331::1704763447::1704763447::1::::<><>::
