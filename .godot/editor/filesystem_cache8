@@ -1,10 +1,11 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1704758205
+::res://::1704760427
 README.md::TextFile::-1::1704734379::0::1::::<><>::
-Icono purba.tscn::PackedScene::2508574167079671209::1704758337::0::1::::<><>::uid://iffbqgghwnin::::res://Escenas/icon.svg
 ::res://Animaciones/::1704734493
-::res://Escenas/::1704758281
+::res://Escenas/::1704758406
+character_body_2d.tscn::PackedScene::6787653099659223378::1704758349::0::1::::<><>::
 icon.svg::CompressedTexture2D::572138858557570865::1704733623::1704758205::1::::<><>::
+Icono purba.tscn::PackedScene::2508574167079671209::1704758337::0::1::::<><>::uid://iffbqgghwnin::::res://Escenas/icon.svg
 ::res://Materiales/::1704734479
 ::res://Modelos/::1704734486
 ::res://Scripts/::1704758288
