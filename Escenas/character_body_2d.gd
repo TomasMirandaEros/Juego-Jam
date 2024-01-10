@@ -1,20 +1,21 @@
 extends CharacterBody2D
 
-var velocidad = 250
+var speed = 200
+var EnPlataforma : bool
 
-func _process(delta):
-	var movimiento = Vector2()
-	
-	if Input.is_action_pressed("ui_right"):
-		movimiento.x += 1
-	if Input.is_action_pressed("ui_left"):
-		movimiento.x -= 1
-	if Input.is_action_pressed("ui_down"):
-		movimiento.y += 1
-	if Input.is_action_pressed("ui_up"):
-		movimiento.y -= 1
+func get_input():
+	var input_direction = Input.get_vector("ui_left", "ui_right", "ui_up", "ui_down")
+	velocity = input_direction * speed
 
-	if movimiento.length() > 0:
-		movimiento = movimiento.normalized()
+func _physics_process(delta):
+	if EnPlataforma == true:
+		get_input()
+		move_and_slide()
 
-	move_and_slide()
+func _on_BodyEntered(body):
+	if body.is_in_group("Plataforma"):
+		EnPlataforma = true
+
+func _on_BodyExited(body):
+	if body.is_in_group("Plataforma"):
+		EnPlataforma = false
