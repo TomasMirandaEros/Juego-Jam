@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://b83ge2c1e68o7"]
+
+[ext_resource type="Texture2D" uid="uid://bjn46me1qlfmc" path="res://sprites fichas/ficha1.png" id="1_hlqku"]
+[ext_resource type="PackedScene" uid="uid://c3x8wjay2v1tm" path="res://Escenas/character_body_2d.tscn" id="2_sceps"]
+
+[node name="Node" type="Node"]
+
+[node name="Ficha1" type="Sprite2D" parent="."]
+position = Vector2(358, 237)
+texture = ExtResource("1_hlqku")
+
+[node name="CharacterBody2D" parent="Ficha1" instance=ExtResource("2_sceps")]
+position = Vector2(0.745625, -25.6909)

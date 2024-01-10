@@ -1,5 +1,7 @@
-CharacterBody2D
+Sprite2D
+Node
 CollisionShape2D
+CharacterBody2D
 StaticBody3D
 DirectionalLight3D
 CollisionShape3D
@@ -10,7 +12,3 @@ CharacterBody3D
 CSGCombiner3D
 Node3D
 CSGBox3D
-CSGMesh3D
-CSGPolygon3D
-RigidBody3D
-Area3D
