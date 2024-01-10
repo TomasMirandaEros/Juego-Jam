@@ -1,3 +1,7 @@
+Node2D
+Area2D
+CollisionPolygon2D
+Camera2D
 CollisionShape2D
 Sprite2D
 StaticBody2D
@@ -8,7 +12,3 @@ DirectionalLight3D
 CollisionShape3D
 Camera3D
 CSGSphere3D
-CSGCylinder3D
-CharacterBody3D
-CSGCombiner3D
-Node3D

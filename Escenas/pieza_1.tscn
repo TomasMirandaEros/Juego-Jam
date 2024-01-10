@@ -1,49 +1,21 @@
-[gd_scene load_steps=8 format=3 uid="uid://be0815nct7g1n"]
+[gd_scene load_steps=3 format=3 uid="uid://be0815nct7g1n"]
 
+[ext_resource type="Script" path="res://Escenas/pieza.gd" id="1_hp3bq"]
 [ext_resource type="Texture2D" uid="uid://bjn46me1qlfmc" path="res://sprites fichas/ficha1.png" id="1_vhyjg"]
-[ext_resource type="PackedScene" uid="uid://c3x8wjay2v1tm" path="res://Escenas/character_body_2d.tscn" id="2_osp3h"]
 
-[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_cor1p"]
-
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_e3165"]
-radius = 6.0
-height = 20.0
-
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_prrba"]
-radius = 3.0
-height = 20.0
-
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_noy5e"]
-radius = 3.0
-height = 20.0
-
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_vjjn8"]
-radius = 4.0
-
-[node name="Pieza 1" type="StaticBody2D" groups=["GrupoDePiezas"]]
+[node name="Pieza Padre" type="Node2D" groups=["GrupoDePiezas"]]
 position = Vector2(68, 44)
-physics_material_override = SubResource("PhysicsMaterial_cor1p")
+script = ExtResource("1_hp3bq")
 
 [node name="Sprite2D" type="Sprite2D" parent="." groups=["GrupoDePiezas"]]
+scale = Vector2(5, 5)
 texture = ExtResource("1_vhyjg")
 
-[node name="CollisionShape2D2" type="CollisionShape2D" parent="." groups=["GrupoDePiezas"]]
-shape = SubResource("CapsuleShape2D_e3165")
-one_way_collision_margin = 2.0
+[node name="Area2D" type="Area2D" parent="Sprite2D"]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="." groups=["GrupoDePiezas"]]
-position = Vector2(0, 6)
-rotation = 1.5708
-shape = SubResource("CapsuleShape2D_prrba")
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Sprite2D/Area2D"]
+polygon = PackedVector2Array(10, 10, 10, 2, 6, 2, 6, -3, 10, -3, 10, -9, 4, -9, 4, -16, -4, -16, -4, -9, -10, -9, -10, -3, -7, -3, -7, 2, -10, 2, -10, 9, -4, 9, -4, 16, 5, 16, 5, 10)
 
-[node name="CollisionShape2D3" type="CollisionShape2D" parent="." groups=["GrupoDePiezas"]]
-position = Vector2(0, -6)
-rotation = 1.5708
-shape = SubResource("CapsuleShape2D_noy5e")
-
-[node name="CollisionShape2D4" type="CollisionShape2D" parent="." groups=["GrupoDePiezas"]]
-shape = SubResource("CapsuleShape2D_vjjn8")
-
-[node name="CharacterBody2D" parent="." instance=ExtResource("2_osp3h")]
-position = Vector2(-1, -4)
-scale = Vector2(0.2, 0.2)
+[connection signal="body_entered" from="Sprite2D/Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_exited" from="Sprite2D/Area2D" to="." method="_on_area_2d_body_exited"]
+[connection signal="input_event" from="Sprite2D/Area2D" to="." method="_on_area_2d_input_event"]

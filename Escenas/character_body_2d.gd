@@ -12,10 +12,3 @@ func _physics_process(delta):
 		get_input()
 		move_and_slide()
 
-func _on_BodyEntered(body):
-	if body.is_in_group("Plataforma"):
-		EnPlataforma = true
-
-func _on_BodyExited(body):
-	if body.is_in_group("Plataforma"):
-		EnPlataforma = false

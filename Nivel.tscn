@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://bo4fylwsexak2"]
+
+[ext_resource type="PackedScene" uid="uid://be0815nct7g1n" path="res://Escenas/pieza_1.tscn" id="1_4d6mv"]
+[ext_resource type="PackedScene" uid="uid://c3x8wjay2v1tm" path="res://Escenas/character_body_2d.tscn" id="2_sr8hk"]
+
+[node name="Ecenario" type="Node2D"]
+
+[node name="Pieza 1" parent="." instance=ExtResource("1_4d6mv")]
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("2_sr8hk")]
+position = Vector2(68, 35)
