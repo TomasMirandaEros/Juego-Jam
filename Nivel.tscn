@@ -10,6 +10,7 @@
 [node name="Ecenario" type="Node2D"]
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("2_sr8hk")]
+z_index = 3
 position = Vector2(68, 35)
 
 [node name="Pieza 1" parent="." instance=ExtResource("1_4d6mv")]
