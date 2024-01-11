@@ -1,0 +1,24 @@
+[gd_scene load_steps=3 format=3 uid="uid://cl77e5qwp3akt"]
+
+[ext_resource type="Script" path="res://Escenas/pieza.gd" id="1_5jwy5"]
+[ext_resource type="Texture2D" uid="uid://cu07h6y2402d1" path="res://sprites fichas/ficha6.png" id="2_ro0vh"]
+
+[node name="Pieza Padre" type="Node2D" groups=["GrupoDePiezas"]]
+position = Vector2(68, 44)
+script = ExtResource("1_5jwy5")
+
+[node name="Sprite2D" type="Sprite2D" parent="." groups=["GrupoDePiezas"]]
+position = Vector2(2, -4)
+scale = Vector2(5, 5)
+texture = ExtResource("2_ro0vh")
+
+[node name="Area2D" type="Area2D" parent="Sprite2D"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Sprite2D/Area2D"]
+position = Vector2(-5.59, -10.9362)
+scale = Vector2(1.26219, 1.6096)
+polygon = PackedVector2Array(-3.49391, 1.20294, 1.25971, 1.20294, 1.25971, -3.14597, 7.59788, -3.14597, 7.59788, 1.20294, 12.0346, 1.20294, 12.193, 12.5101, 7.59788, 12.5101, 7.59788, 16.7347, 1.41816, 16.7347, 1.41816, 12.5101, -3.49391, 12.5101, -3.49391, 8.40969, 0.308985, 8.53394, 0.46744, 4.93057, -3.49391, 4.93057)
+
+[connection signal="body_entered" from="Sprite2D/Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_exited" from="Sprite2D/Area2D" to="." method="_on_area_2d_body_exited"]
+[connection signal="input_event" from="Sprite2D/Area2D" to="." method="_on_area_2d_input_event"]

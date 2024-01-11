@@ -1,21 +1,25 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1704908372
-Nivel.tscn::PackedScene::3429278506077473831::1704908268::0::1::::<><>::uid://be0815nct7g1n::::res://Escenas/pieza_1.tscn<>uid://c3x8wjay2v1tm::::res://Escenas/character_body_2d.tscn
-README.md::TextFile::-1::1704848987::0::1::::<><>::
-::res://Escenas/::1704908268
-character_body_2d.gd::GDScript::-1::1704902963::0::1::::<>CharacterBody2D<>::
-character_body_2d.tscn::PackedScene::6787653099659223378::1704908268::0::1::::<><>::res://Escenas/character_body_2d.gd<>uid://iffbqgghwnin::::res://Escenas/icon.svg
-icon.svg::CompressedTexture2D::572138858557570865::1704848987::1704848987::1::::<><>::
-Icono purba.tscn::PackedScene::2508574167079671209::1704908268::0::1::::<><>::uid://iffbqgghwnin::::res://Escenas/icon.svg
-pieza.gd::GDScript::-1::1704908267::0::1::::<>StaticBody2D<>::
-pieza_1.tscn::PackedScene::2720837189400034121::1704908268::0::1::::<><>::res://Escenas/pieza.gd<>uid://bjn46me1qlfmc::::res://sprites fichas/ficha1.png
-::res://sprites fichas/::1704901419
-ficha1.png::CompressedTexture2D::3046773977302009158::1704848987::1704901419::1::::<><>::
-ficha3.png::CompressedTexture2D::3001022434960279765::1704848987::1704848987::1::::<><>::
-ficha4.png::CompressedTexture2D::1739006701012670592::1704848987::1704848987::1::::<><>::
-ficha6.png::CompressedTexture2D::6230184794889889892::1704848987::1704848987::1::::<><>::
-ficha7.png::CompressedTexture2D::8600239438963166518::1704848987::1704848987::1::::<><>::
-ficha9.png::CompressedTexture2D::2819933053966822419::1704848987::1704848987::1::::<><>::
-ficha 2.png::CompressedTexture2D::6115630894519835382::1704848987::1704848987::1::::<><>::
-pieza 5.png::CompressedTexture2D::353843581749342924::1704848987::1704848987::1::::<><>::
-pieza 8.png::CompressedTexture2D::421324843631214331::1704848987::1704848987::1::::<><>::
+::res://::1704941193
+Nivel.tscn::PackedScene::3429278506077473831::1704941021::0::1::::<><>::uid://be0815nct7g1n::::res://Escenas/pieza_1.tscn<>uid://c3x8wjay2v1tm::::res://Escenas/character_body_2d.tscn
+README.md::TextFile::-1::1704734379::0::1::::<><>::
+::res://Animaciones/::1704734493
+::res://Escenas/::1704941021
+character_body_2d.gd::GDScript::-1::1704941021::0::1::::<>CharacterBody2D<>::
+character_body_2d.tscn::PackedScene::6787653099659223378::1704941021::0::1::::<><>::res://Escenas/character_body_2d.gd<>uid://iffbqgghwnin::::res://Escenas/icon.svg
+icon.svg::CompressedTexture2D::572138858557570865::1704733623::1704758205::1::::<><>::
+Icono purba.tscn::PackedScene::2508574167079671209::1704856836::0::1::::<><>::uid://iffbqgghwnin::::res://Escenas/icon.svg
+pieza.gd::GDScript::-1::1704941021::0::1::::<>Node2D<>::
+pieza_1.tscn::PackedScene::2720837189400034121::1704941021::0::1::::<><>::res://Escenas/pieza.gd<>uid://bjn46me1qlfmc::::res://sprites fichas/ficha1.png
+::res://Materiales/::1704734479
+::res://Modelos/::1704734486
+::res://Scripts/::1704758288
+::res://sprites fichas/::1704847490
+ficha1.png::CompressedTexture2D::3046773977302009158::1704763447::1704847489::1::::<><>::
+ficha3.png::CompressedTexture2D::3001022434960279765::1704763447::1704763447::1::::<><>::
+ficha4.png::CompressedTexture2D::1739006701012670592::1704763447::1704763447::1::::<><>::
+ficha6.png::CompressedTexture2D::6230184794889889892::1704763447::1704763447::1::::<><>::
+ficha7.png::CompressedTexture2D::8600239438963166518::1704763447::1704763447::1::::<><>::
+ficha9.png::CompressedTexture2D::2819933053966822419::1704763447::1704763447::1::::<><>::
+ficha 2.png::CompressedTexture2D::6115630894519835382::1704763447::1704763447::1::::<><>::
+pieza 5.png::CompressedTexture2D::353843581749342924::1704763447::1704763447::1::::<><>::
+pieza 8.png::CompressedTexture2D::421324843631214331::1704763447::1704763447::1::::<><>::

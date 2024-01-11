@@ -1,5 +1,2 @@
-res://Escenas/pieza.gd
-res://Escenas/pieza_1.tscn
-res://Escenas/character_body_2d.tscn
-res://Escenas/Icono purba.tscn
+res://Escenas/pieza_2.tscn
 res://Nivel.tscn
