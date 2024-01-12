@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://bsdmeg3jkyqnm"]
 
-[ext_resource type="Script" path="res://Escenas/pieza.gd" id="1_ym5ut"]
+[ext_resource type="Script" path="res://sprites fichas/pieza.gd" id="1_ym5ut"]
 [ext_resource type="Texture2D" uid="uid://gadfnmlkvle6" path="res://sprites fichas/pieza 8.png" id="2_5dr2r"]
 
 [node name="Pieza Padre" type="Node2D" groups=["GrupoDePiezas"]]
