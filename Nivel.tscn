@@ -1,40 +1,9 @@
-[gd_scene load_steps=7 format=3 uid="uid://bo4fylwsexak2"]
+[gd_scene load_steps=2 format=3 uid="uid://bo4fylwsexak2"]
 
-[ext_resource type="PackedScene" uid="uid://be0815nct7g1n" path="res://Escenas/pieza_1.tscn" id="1_4d6mv"]
 [ext_resource type="PackedScene" uid="uid://c3x8wjay2v1tm" path="res://Escenas/character_body_2d.tscn" id="2_sr8hk"]
-[ext_resource type="PackedScene" uid="uid://cu83tbuwxf65s" path="res://Escenas/pieza_2.tscn" id="3_orxsw"]
-[ext_resource type="PackedScene" uid="uid://cl77e5qwp3akt" path="res://Escenas/pieza_6.tscn" id="4_w2if8"]
-[ext_resource type="PackedScene" uid="uid://hciydides53d" path="res://Escenas/pieza_3.tscn" id="5_nhipv"]
-[ext_resource type="PackedScene" uid="uid://bb0sdjmxfnolr" path="res://Escenas/pieza_7.tscn" id="6_g2nww"]
 
 [node name="Ecenario" type="Node2D"]
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("2_sr8hk")]
 z_index = 3
 position = Vector2(68, 35)
-
-[node name="Pieza 1" parent="." instance=ExtResource("1_4d6mv")]
-
-[node name="Pieza 2" parent="." instance=ExtResource("3_orxsw")]
-position = Vector2(69, 244)
-
-[node name="Pieza 3" parent="." instance=ExtResource("1_4d6mv")]
-position = Vector2(68, 147)
-rotation = 1.5708
-
-[node name="Pieza 1_2" parent="." instance=ExtResource("1_4d6mv")]
-position = Vector2(164, 43)
-rotation = 1.5708
-
-[node name="Pieza Padre" parent="." instance=ExtResource("4_w2if8")]
-position = Vector2(254, 45)
-
-[node name="Pieza Padre2" parent="." instance=ExtResource("5_nhipv")]
-position = Vector2(256, -48)
-rotation = 1.5708
-
-[node name="Pieza Padre3" parent="." instance=ExtResource("6_g2nww")]
-z_index = -2
-texture_filter = 1
-position = Vector2(253, -150)
-rotation = 1.5708
