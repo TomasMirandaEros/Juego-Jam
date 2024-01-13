@@ -1,6 +1,8 @@
-res://Escenas/Piezas/Verdes/pieza_verde_1.tscn
-res://Escenas/Piezas/Verdes/Pieza5 verde.tscn
+res://Escenas/elementosEspecificos/hacha.tscn
+res://Scripts/Objetos.gd
 res://Nivel.tscn
 res://Escenas/Piezas/Verdes/pieza_verde_2.tscn
 res://Escenas/npc.tscn
 res://Escenas/npc_2.tscn
+res://Escenas/elementosEspecificos/Flor.tscn
+res://Scripts/pieza_blanca.gd

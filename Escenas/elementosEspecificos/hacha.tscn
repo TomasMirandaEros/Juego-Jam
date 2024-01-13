@@ -7,7 +7,7 @@
 radius = 9.0
 height = 21.875
 
-[node name="Flor" type="Node2D" groups=["Flor"]]
+[node name="hacha" type="Node2D" groups=["Flor"]]
 script = ExtResource("1_q48oj")
 
 [node name="Node2D" type="Area2D" parent="."]
@@ -20,3 +20,5 @@ shape = SubResource("CapsuleShape2D_fvreb")
 [node name="Sprite2D" type="Sprite2D" parent="." groups=["Flor"]]
 position = Vector2(-4, 0)
 texture = ExtResource("2_om4cc")
+
+[connection signal="input_event" from="Node2D" to="." method="_on_node_2d_input_event"]

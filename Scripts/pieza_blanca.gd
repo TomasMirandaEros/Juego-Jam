@@ -7,7 +7,6 @@ var moviendo:bool= false
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	print(press)
 	if press and not move:
 		moviendo = true
 		position = lerp(position,get_global_mouse_position(),25*delta)
