@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://d3es4arler8yv"]
+
+[ext_resource type="Texture2D" uid="uid://fjuijexbtcil" path="res://sprites fichas/PJ-2.png" id="1_2je2m"]
+[ext_resource type="PackedScene" uid="uid://dk37evnwulvyx" path="res://Escenas/Pensamientos/PensamientoPieza 1_B .tscn" id="2_q75lo"]
+
+[node name="NPC" type="CharacterBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_2je2m")
+
+[node name="Control" parent="." instance=ExtResource("2_q75lo")]
+offset_left = -65.0
+offset_top = -100.0
+offset_right = -65.0
+offset_bottom = -100.0

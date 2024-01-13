@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://kr66w1n28mfn"]
+
+[ext_resource type="Script" path="res://Scripts/pieza.gd" id="1_hp3bq"]
+
+[node name="Pieza Padre" type="Node2D" groups=["GrupoDePiezas"]]
+position = Vector2(68, 44)
+script = ExtResource("1_hp3bq")
+
+[node name="Sprite2D" type="Sprite2D" parent="." groups=["GrupoDePiezas"]]
+scale = Vector2(5, 5)
