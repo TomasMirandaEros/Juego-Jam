@@ -1,0 +1,25 @@
+[gd_scene load_steps=5 format=3 uid="uid://bdtj7ga58rrv3"]
+
+[ext_resource type="Script" path="res://Scripts/npc.gd" id="1_hpwyn"]
+[ext_resource type="Texture2D" uid="uid://fjuijexbtcil" path="res://sprites fichas/PJ-2.png" id="2_4g8en"]
+[ext_resource type="PackedScene" uid="uid://dt2t5rf5s1c4a" path="res://Escenas/Pensamientos/PensamientoPieza_3_Bx2.tscn" id="3_2p5l7"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_havj2"]
+radius = 5.0
+height = 10.0
+
+[node name="NPC" type="CharacterBody2D"]
+script = ExtResource("1_hpwyn")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_4g8en")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 9)
+shape = SubResource("CapsuleShape2D_havj2")
+
+[node name="Control" parent="." instance=ExtResource("3_2p5l7")]
+offset_left = -71.0
+offset_top = -97.0
+offset_right = -71.0
+offset_bottom = -97.0

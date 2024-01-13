@@ -1,0 +1,50 @@
+[gd_scene load_steps=5 format=3 uid="uid://cioord65rjsxx"]
+
+[ext_resource type="Texture2D" uid="uid://dpwe70ga0cm2h" path="res://sprites fichas/ficha 4_B.png" id="1_18alh"]
+[ext_resource type="Texture2D" uid="uid://c0dbn6irdbw0p" path="res://sprites fichas/Circulo-1.png" id="2_jcd7d"]
+[ext_resource type="Texture2D" uid="uid://cctorr66rhl51" path="res://sprites fichas/Circulo-2.png" id="3_bg2ch"]
+[ext_resource type="Texture2D" uid="uid://ms6akocdm4fs" path="res://sprites fichas/Regadera.png" id="4_gpxq1"]
+
+[node name="Control" type="Control"]
+texture_filter = 1
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="."]
+modulate = Color(1, 1, 1, 0.505882)
+layout_mode = 0
+offset_left = 109.0
+offset_top = -19.0
+offset_right = 199.0
+offset_bottom = 71.0
+rotation = 1.5708
+texture = ExtResource("1_18alh")
+
+[node name="TextureRect2" type="TextureRect" parent="TextureRect"]
+layout_mode = 0
+offset_left = 63.0
+offset_top = 49.0
+offset_right = 103.0
+offset_bottom = 89.0
+texture = ExtResource("2_jcd7d")
+
+[node name="TextureRect3" type="TextureRect" parent="TextureRect/TextureRect2"]
+layout_mode = 0
+offset_left = 17.0
+offset_top = -15.0
+offset_right = 57.0
+offset_bottom = 25.0
+texture = ExtResource("3_bg2ch")
+
+[node name="TextureRect" type="TextureRect" parent="TextureRect"]
+layout_mode = 0
+offset_left = 31.0
+offset_top = 62.0
+offset_right = 63.0
+offset_bottom = 94.0
+rotation = -1.5708
+texture = ExtResource("4_gpxq1")

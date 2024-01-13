@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://dp5q2ww6m5dmk"]
+
+[ext_resource type="Texture2D" uid="uid://fbn0toktwjpk" path="res://sprites fichas/pieza 5.png" id="1_bhi1b"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(5, 5)
+texture = ExtResource("1_bhi1b")

@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://btdx5yflq1m5w"]
+
+[ext_resource type="Script" path="res://Scripts/Objetos.gd" id="1_4rifk"]
+[ext_resource type="Texture2D" uid="uid://ms6akocdm4fs" path="res://sprites fichas/Regadera.png" id="2_q3oaf"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_fvreb"]
+radius = 9.0
+height = 21.875
+
+[node name="Flor" type="Node2D" groups=["Flor"]]
+script = ExtResource("1_4rifk")
+
+[node name="Node2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Node2D" groups=["Flor"]]
+position = Vector2(0, 4)
+scale = Vector2(1, 0.64)
+shape = SubResource("CapsuleShape2D_fvreb")
+
+[node name="Sprite2D" type="Sprite2D" parent="." groups=["Flor"]]
+position = Vector2(-7, 0)
+texture = ExtResource("2_q3oaf")

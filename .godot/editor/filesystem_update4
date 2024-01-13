@@ -1,9 +1,6 @@
-res://Escenas/pieza_padre.tscn
-res://sprites fichas/pieza.gd
-res://Escenas/pieza_verde_1.tscn
-res://Nivel.tscn
-res://Escenas/character_body_2d.tscn
-res://Escenas/Pensamientos/PensamientoPieza 1_B .tscn
-res://Scripts/pieza_blanca.gd
-res://Escenas/Piezas/Blancas/pieza_blanca.tscn
 res://Escenas/Piezas/Verdes/pieza_verde_1.tscn
+res://Escenas/Piezas/Verdes/Pieza5 verde.tscn
+res://Nivel.tscn
+res://Escenas/Piezas/Verdes/pieza_verde_2.tscn
+res://Escenas/npc.tscn
+res://Escenas/npc_2.tscn

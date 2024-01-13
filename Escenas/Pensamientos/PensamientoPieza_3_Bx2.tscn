@@ -1,0 +1,60 @@
+[gd_scene load_steps=5 format=3 uid="uid://dt2t5rf5s1c4a"]
+
+[ext_resource type="Texture2D" uid="uid://bfrnbqbvl2sml" path="res://sprites fichas/ficha 3_B.png" id="1_mepiu"]
+[ext_resource type="Texture2D" uid="uid://c0dbn6irdbw0p" path="res://sprites fichas/Circulo-1.png" id="2_xfbo0"]
+[ext_resource type="Texture2D" uid="uid://cctorr66rhl51" path="res://sprites fichas/Circulo-2.png" id="3_jb17q"]
+[ext_resource type="Texture2D" uid="uid://cnywbk3n265i7" path="res://sprites fichas/Hacha.png" id="4_y8ctc"]
+
+[node name="Control" type="Control"]
+texture_filter = 1
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="."]
+modulate = Color(1, 1, 1, 0.505882)
+layout_mode = 0
+offset_left = 109.0
+offset_top = -19.0
+offset_right = 199.0
+offset_bottom = 71.0
+rotation = 1.5708
+texture = ExtResource("1_mepiu")
+
+[node name="TextureRect2" type="TextureRect" parent="TextureRect"]
+layout_mode = 0
+offset_left = 63.0
+offset_top = 49.0
+offset_right = 103.0
+offset_bottom = 89.0
+texture = ExtResource("2_xfbo0")
+
+[node name="TextureRect3" type="TextureRect" parent="TextureRect/TextureRect2"]
+layout_mode = 0
+offset_left = 17.0
+offset_top = -15.0
+offset_right = 57.0
+offset_bottom = 25.0
+texture = ExtResource("3_jb17q")
+
+[node name="TextureRect" type="TextureRect" parent="TextureRect"]
+layout_mode = 0
+offset_left = 25.0002
+offset_top = 61.9999
+offset_right = 57.0002
+offset_bottom = 93.9999
+rotation = -1.5708
+texture = ExtResource("4_y8ctc")
+
+[node name="TextureRect3" type="TextureRect" parent="TextureRect"]
+modulate = Color(1, 1, 1, 0.14902)
+layout_mode = 0
+offset_left = 88.0
+offset_top = 9.99968
+offset_right = 178.0
+offset_bottom = 99.9997
+rotation = 1.5708
+texture = ExtResource("1_mepiu")
