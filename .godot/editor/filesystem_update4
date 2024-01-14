@@ -4,4 +4,7 @@ res://Escenas/npc_2.tscn
 res://Escenas/elementosEspecificos/hacha.tscn
 res://Escenas/elementosEspecificos/Flor.tscn
 res://Escenas/Piezas/Blancas/pieza_blanca.tscn
-res://Scripts/npc.gd
+res://Scripts/Objetos.gd
+res://Escenas/character_body_2d.tscn
+res://Scripts/character_body_2d.gd
+res://Escenas/Player.tscn

@@ -1,63 +1,60 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1705200458
-icon.svg::CompressedTexture2D::1155514541970288919::1705168972::1705168972::1::::<><>::
-Nivel.tscn::PackedScene::3429278506077473831::1705200352::0::1::::<><>::uid://bwlirblhgesa2::::res://Escenas/Piezas/Verdes/pieza_verde_1.tscn<>uid://c3x8wjay2v1tm::::res://Escenas/character_body_2d.tscn<>uid://srx1ryls370l::::res://Escenas/elementosEspecificos/Flor.tscn<>uid://cknheak3qlgq0::::res://Escenas/Piezas/Blancas/pieza_blanca.tscn<>uid://bcucqtq3okgws::::res://Escenas/Piezas/Verdes/pieza_verde_2.tscn<>uid://d3es4arler8yv::::res://Escenas/npc.tscn<>uid://3jtr8c15ngp7::::res://Escenas/elementosEspecificos/hacha.tscn
-README.md::TextFile::-1::1704734379::0::1::::<><>::
-::res://Animaciones/::1704734493
-::res://Escenas/::1705174530
-character_body_2d.tscn::PackedScene::6787653099659223378::1705173926::0::1::::<><>::res://Scripts/character_body_2d.gd<>uid://vfdm5k34bf1x::::res://sprites fichas/PJ-1.png
-npc.tscn::PackedScene::9133951904621004593::1705174529::0::1::::<><>::uid://fjuijexbtcil::::res://sprites fichas/PJ-2.png<>res://Scripts/npc.gd<>uid://dk37evnwulvyx::::res://Escenas/Pensamientos/PensamientoPieza 1_B .tscn
-npc_2.tscn::PackedScene::2636814306822140034::1705174530::0::1::::<><>::res://Scripts/npc.gd<>uid://fjuijexbtcil::::res://sprites fichas/PJ-2.png<>uid://dt2t5rf5s1c4a::::res://Escenas/Pensamientos/PensamientoPieza_3_Bx2.tscn
-::res://Escenas/elementosEspecificos/::1705200352
-Flor.tscn::PackedScene::1299937459275995581::1705173926::0::1::::<><>::res://Scripts/Objetos.gd<>uid://boltgjlkyuccr::::res://sprites fichas/Flor.png
-hacha.tscn::PackedScene::1985052740592483902::1705200352::0::1::::<><>::res://Scripts/Objetos.gd<>uid://cnywbk3n265i7::::res://sprites fichas/Hacha.png
-Regadera.tscn::PackedScene::3727653179535304626::1705173926::0::1::::<><>::res://Scripts/Objetos.gd<>uid://ms6akocdm4fs::::res://sprites fichas/Regadera.png
-::res://Escenas/Pensamientos/::1705173926
-PensamientoPieza 1_B .tscn::PackedScene::7920904275617021107::1705173926::0::1::::<><>::uid://bse28ml4kj6ia::::res://sprites fichas/ficha 1_B.png<>uid://c0dbn6irdbw0p::::res://sprites fichas/Circulo-1.png<>uid://cctorr66rhl51::::res://sprites fichas/Circulo-2.png<>uid://boltgjlkyuccr::::res://sprites fichas/Flor.png
-PensamientoPieza_3_Bx2.tscn::PackedScene::8549796378250358610::1705173926::0::1::::<><>::uid://bfrnbqbvl2sml::::res://sprites fichas/ficha 3_B.png<>uid://c0dbn6irdbw0p::::res://sprites fichas/Circulo-1.png<>uid://cctorr66rhl51::::res://sprites fichas/Circulo-2.png<>uid://cnywbk3n265i7::::res://sprites fichas/Hacha.png
-PensamientoPieza_4_B.tscn::PackedScene::5364134008287554885::1705173926::0::1::::<><>::uid://dpwe70ga0cm2h::::res://sprites fichas/ficha 4_B.png<>uid://c0dbn6irdbw0p::::res://sprites fichas/Circulo-1.png<>uid://cctorr66rhl51::::res://sprites fichas/Circulo-2.png<>uid://ms6akocdm4fs::::res://sprites fichas/Regadera.png
-::res://Escenas/Piezas/::1705168971
-pieza_padre.tscn::PackedScene::738921640892822847::1705168971::0::1::::<><>::res://Scripts/pieza.gd
-::res://Escenas/Piezas/Blancas/::1705173926
-pieza_blanca.tscn::PackedScene::5501998893436345129::1705173926::0::1::::<><>::uid://kr66w1n28mfn::::res://Escenas/Piezas/pieza_padre.tscn<>res://Scripts/pieza_blanca.gd<>uid://bm7ml1l7an6wh::::res://sprites fichas/Ficha_1_B.png
-::res://Escenas/Piezas/Verdes/::1705174529
-Pieza5 verde.tscn::PackedScene::8275046917516395326::1705174529::0::1::::<><>::uid://fbn0toktwjpk::::res://sprites fichas/pieza 5.png
-pieza_verde_1.tscn::PackedScene::3953799563305428739::1705174048::0::1::::<><>::uid://kr66w1n28mfn::::res://Escenas/Piezas/pieza_padre.tscn<>res://Scripts/Pieza_verde 1.gd<>uid://bjn46me1qlfmc::::res://sprites fichas/ficha1.png
-pieza_verde_2.tscn::PackedScene::2568236956690197318::1705174529::0::1::::<><>::uid://bwlirblhgesa2::::res://Escenas/Piezas/Verdes/pieza_verde_1.tscn<>uid://y1nglmc4u1om::::res://sprites fichas/ficha4.png
-::res://Materiales/::1704734479
-::res://Modelos/::1704734486
-::res://Scripts/::1705200352
-character_body_2d.gd::GDScript::-1::1705168971::0::1::::<>CharacterBody2D<>::
-npc.gd::GDScript::-1::1705172857::0::1::::<>CharacterBody2D<>::
-Objetos.gd::GDScript::-1::1705200352::0::1::::<>Node2D<>::
-pieza.gd::GDScript::-1::1705168971::0::1::::Pieza<>Node2D<>::
-pieza_blanca.gd::GDScript::-1::1705200352::0::1::::<>Pieza<>::
-Pieza_verde 1.gd::GDScript::-1::1705168971::0::1::::<>Pieza<>::
-::res://sprites fichas/::1705168972
-Circulo-1.png::CompressedTexture2D::6533841165271487761::1705027170::1705027207::1::::<><>::
-Circulo-2.png::CompressedTexture2D::4953323570601910442::1705027170::1705027207::1::::<><>::
-ficha1.png::CompressedTexture2D::3046773977302009158::1704763447::1704847489::1::::<><>::
-ficha3.png::CompressedTexture2D::3001022434960279765::1704763447::1704763447::1::::<><>::
-ficha4.png::CompressedTexture2D::1739006701012670592::1704763447::1704763447::1::::<><>::
-ficha6.png::CompressedTexture2D::6230184794889889892::1704763447::1704763447::1::::<><>::
-ficha7.png::CompressedTexture2D::8600239438963166518::1704763447::1704763447::1::::<><>::
-ficha9.png::CompressedTexture2D::2819933053966822419::1704763447::1704763447::1::::<><>::
-ficha 1_B.png::CompressedTexture2D::3659776318801909972::1705027170::1705027207::1::::<><>::
-ficha 2.png::CompressedTexture2D::6115630894519835382::1704763447::1704763447::1::::<><>::
-ficha 2_B.png::CompressedTexture2D::4960521827212454905::1705027170::1705027207::1::::<><>::
-ficha 3_B.png::CompressedTexture2D::2773251273290480851::1705027170::1705027207::1::::<><>::
-ficha 4_B.png::CompressedTexture2D::8257812352001208429::1705027170::1705027207::1::::<><>::
-ficha 6_B.png::CompressedTexture2D::8940630684403603315::1705027170::1705027207::1::::<><>::
-ficha 7_B.png::CompressedTexture2D::1052196706259281297::1705027170::1705027207::1::::<><>::
-ficha 8_B.png::CompressedTexture2D::5368375842177107131::1705027170::1705027207::1::::<><>::
-ficha 9_B.png::CompressedTexture2D::6732884852217526163::1705027170::1705027207::1::::<><>::
-Ficha_1_B.png::CompressedTexture2D::3295496527179987351::1705027170::1705027207::1::::<><>::
-Flor.png::CompressedTexture2D::3392937477736418813::1705030125::1705030125::1::::<><>::
-Hacha.png::CompressedTexture2D::5736179529528844912::1705030125::1705030125::1::::<><>::
-pieza 5.png::CompressedTexture2D::353843581749342924::1704763447::1704763447::1::::<><>::
-pieza 5_B.png::CompressedTexture2D::7300499109836204834::1705027170::1705027207::1::::<><>::
-pieza 8.png::CompressedTexture2D::421324843631214331::1704763447::1704763447::1::::<><>::
-PJ-1.png::CompressedTexture2D::1484492778133677175::1705168972::1705027207::1::::<><>::
-PJ-2.png::CompressedTexture2D::370752724119737771::1705027170::1705027207::1::::<><>::
-PJ-3.png::CompressedTexture2D::9045552770076094418::1705027170::1705027207::1::::<><>::
-Regadera.png::CompressedTexture2D::881307696961373440::1705030125::1705030125::1::::<><>::
+::res://::1705250358
+icon.svg::CompressedTexture2D::1155514541970288919::1705176195::1705176195::1::::<><>::
+Nivel.tscn::PackedScene::3429278506077473831::1705250818::0::1::::<><>::uid://bwlirblhgesa2::::res://Escenas/Piezas/Verdes/pieza_verde_1.tscn<>uid://c3x8wjay2v1tm::::res://Escenas/character_body_2d.tscn<>uid://srx1ryls370l::::res://Escenas/elementosEspecificos/Flor.tscn<>uid://cknheak3qlgq0::::res://Escenas/Piezas/Blancas/pieza_blanca.tscn<>uid://bcucqtq3okgws::::res://Escenas/Piezas/Verdes/pieza_verde_2.tscn<>uid://d3es4arler8yv::::res://Escenas/npc.tscn<>uid://dp5q2ww6m5dmk::::res://Escenas/Piezas/Verdes/Pieza5 verde.tscn<>uid://3jtr8c15ngp7::::res://Escenas/elementosEspecificos/hacha.tscn<>uid://bdtj7ga58rrv3::::res://Escenas/npc_2.tscn
+README.md::TextFile::-1::1705176195::0::1::::<><>::
+::res://Escenas/::1705250358
+character_body_2d.tscn::PackedScene::6787653099659223378::1705250803::0::1::::<><>::res://Scripts/character_body_2d.gd<>uid://vfdm5k34bf1x::::res://sprites fichas/PJ-1.png
+npc.tscn::PackedScene::9133951904621004593::1705250358::0::1::::<><>::uid://fjuijexbtcil::::res://sprites fichas/PJ-2.png<>res://Scripts/npc.gd<>uid://dk37evnwulvyx::::res://Escenas/Pensamientos/PensamientoPieza 1_B .tscn
+npc_2.tscn::PackedScene::2636814306822140034::1705250358::0::1::::<><>::res://Scripts/npc.gd<>uid://fjuijexbtcil::::res://sprites fichas/PJ-2.png<>uid://dt2t5rf5s1c4a::::res://Escenas/Pensamientos/PensamientoPieza_3_Bx2.tscn
+::res://Escenas/elementosEspecificos/::1705250358
+Flor.tscn::PackedScene::1299937459275995581::1705250358::0::1::::<><>::res://Scripts/Objetos.gd<>uid://boltgjlkyuccr::::res://sprites fichas/Flor.png
+hacha.tscn::PackedScene::1985052740592483902::1705250358::0::1::::<><>::res://Scripts/Objetos.gd<>uid://cnywbk3n265i7::::res://sprites fichas/Hacha.png
+Regadera.tscn::PackedScene::3727653179535304626::1705176195::0::1::::<><>::res://Scripts/Objetos.gd<>uid://ms6akocdm4fs::::res://sprites fichas/Regadera.png
+::res://Escenas/Pensamientos/::1705176195
+PensamientoPieza 1_B .tscn::PackedScene::7920904275617021107::1705176195::0::1::::<><>::uid://bse28ml4kj6ia::::res://sprites fichas/ficha 1_B.png<>uid://c0dbn6irdbw0p::::res://sprites fichas/Circulo-1.png<>uid://cctorr66rhl51::::res://sprites fichas/Circulo-2.png<>uid://boltgjlkyuccr::::res://sprites fichas/Flor.png
+PensamientoPieza_3_Bx2.tscn::PackedScene::8549796378250358610::1705176195::0::1::::<><>::uid://bfrnbqbvl2sml::::res://sprites fichas/ficha 3_B.png<>uid://c0dbn6irdbw0p::::res://sprites fichas/Circulo-1.png<>uid://cctorr66rhl51::::res://sprites fichas/Circulo-2.png<>uid://cnywbk3n265i7::::res://sprites fichas/Hacha.png
+PensamientoPieza_4_B.tscn::PackedScene::5364134008287554885::1705176195::0::1::::<><>::uid://dpwe70ga0cm2h::::res://sprites fichas/ficha 4_B.png<>uid://c0dbn6irdbw0p::::res://sprites fichas/Circulo-1.png<>uid://cctorr66rhl51::::res://sprites fichas/Circulo-2.png<>uid://ms6akocdm4fs::::res://sprites fichas/Regadera.png
+::res://Escenas/Piezas/::1705176195
+pieza_padre.tscn::PackedScene::738921640892822847::1705176195::0::1::::<><>::res://Scripts/pieza.gd
+::res://Escenas/Piezas/Blancas/::1705250358
+pieza_blanca.tscn::PackedScene::5501998893436345129::1705250358::0::1::::<><>::uid://kr66w1n28mfn::::res://Escenas/Piezas/pieza_padre.tscn<>res://Scripts/pieza_blanca.gd<>uid://bm7ml1l7an6wh::::res://sprites fichas/Ficha_1_B.png
+::res://Escenas/Piezas/Verdes/::1705177221
+Pieza5 verde.tscn::PackedScene::8275046917516395326::1705176195::0::1::::<><>::uid://fbn0toktwjpk::::res://sprites fichas/pieza 5.png
+pieza_verde_1.tscn::PackedScene::3953799563305428739::1705176195::0::1::::<><>::uid://kr66w1n28mfn::::res://Escenas/Piezas/pieza_padre.tscn<>res://Scripts/Pieza_verde 1.gd<>uid://bjn46me1qlfmc::::res://sprites fichas/ficha1.png
+pieza_verde_2.tscn::PackedScene::2568236956690197318::1705177221::0::1::::<><>::uid://bwlirblhgesa2::::res://Escenas/Piezas/Verdes/pieza_verde_1.tscn<>uid://y1nglmc4u1om::::res://sprites fichas/ficha4.png
+::res://Scripts/::1705250261
+character_body_2d.gd::GDScript::-1::1705176195::0::1::::<>CharacterBody2D<>::
+npc.gd::GDScript::-1::1705248157::0::1::::<>CharacterBody2D<>::
+Objetos.gd::GDScript::-1::1705250803::0::1::::<>Node2D<>::
+pieza.gd::GDScript::-1::1705176195::0::1::::Pieza<>Node2D<>::
+pieza_blanca.gd::GDScript::-1::1705177221::0::1::::<>Pieza<>::
+Pieza_verde 1.gd::GDScript::-1::1705176195::0::1::::<>Pieza<>::
+::res://sprites fichas/::1705176195
+Circulo-1.png::CompressedTexture2D::6533841165271487761::1705176195::1705176195::1::::<><>::
+Circulo-2.png::CompressedTexture2D::4953323570601910442::1705176195::1705176195::1::::<><>::
+ficha1.png::CompressedTexture2D::3046773977302009158::1705176195::1705176195::1::::<><>::
+ficha3.png::CompressedTexture2D::3001022434960279765::1705176195::1705176195::1::::<><>::
+ficha4.png::CompressedTexture2D::1739006701012670592::1705176195::1705176195::1::::<><>::
+ficha6.png::CompressedTexture2D::6230184794889889892::1705176195::1705176195::1::::<><>::
+ficha7.png::CompressedTexture2D::8600239438963166518::1705176195::1705176195::1::::<><>::
+ficha9.png::CompressedTexture2D::2819933053966822419::1705176195::1705176195::1::::<><>::
+ficha 1_B.png::CompressedTexture2D::3659776318801909972::1705176195::1705176195::1::::<><>::
+ficha 2.png::CompressedTexture2D::6115630894519835382::1705176195::1705176195::1::::<><>::
+ficha 2_B.png::CompressedTexture2D::4960521827212454905::1705176195::1705176195::1::::<><>::
+ficha 3_B.png::CompressedTexture2D::2773251273290480851::1705176195::1705176195::1::::<><>::
+ficha 4_B.png::CompressedTexture2D::8257812352001208429::1705176195::1705176195::1::::<><>::
+ficha 6_B.png::CompressedTexture2D::8940630684403603315::1705176195::1705176195::1::::<><>::
+ficha 7_B.png::CompressedTexture2D::1052196706259281297::1705176195::1705176195::1::::<><>::
+ficha 8_B.png::CompressedTexture2D::5368375842177107131::1705176195::1705176195::1::::<><>::
+ficha 9_B.png::CompressedTexture2D::6732884852217526163::1705176195::1705176195::1::::<><>::
+Ficha_1_B.png::CompressedTexture2D::3295496527179987351::1705176195::1705176195::1::::<><>::
+Flor.png::CompressedTexture2D::3392937477736418813::1705176195::1705176195::1::::<><>::
+Hacha.png::CompressedTexture2D::5736179529528844912::1705176195::1705176195::1::::<><>::
+pieza 5.png::CompressedTexture2D::353843581749342924::1705176195::1705176195::1::::<><>::
+pieza 5_B.png::CompressedTexture2D::7300499109836204834::1705176195::1705176195::1::::<><>::
+pieza 8.png::CompressedTexture2D::421324843631214331::1705176195::1705176195::1::::<><>::
+PJ-1.png::CompressedTexture2D::1484492778133677175::1705176195::1705176195::1::::<><>::
+PJ-2.png::CompressedTexture2D::370752724119737771::1705176195::1705176195::1::::<><>::
+PJ-3.png::CompressedTexture2D::9045552770076094418::1705176195::1705176195::1::::<><>::
+Regadera.png::CompressedTexture2D::881307696961373440::1705176195::1705176195::1::::<><>::

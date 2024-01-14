@@ -22,3 +22,8 @@ zoom = Vector2(2, 2)
 limit_smoothed = true
 position_smoothing_enabled = true
 editor_draw_drag_margin = true
+
+[node name="Marker2D" type="Marker2D" parent="."]
+position = Vector2(0, -18)
+
+[connection signal="child_entered_tree" from="." to="." method="_on_child_entered_tree"]

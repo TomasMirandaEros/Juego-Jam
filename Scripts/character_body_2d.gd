@@ -10,3 +10,5 @@ func _physics_process(delta):
 	get_input()
 	move_and_slide()
 
+func _on_child_entered_tree(node):
+	node.position = $Marker2D.position
