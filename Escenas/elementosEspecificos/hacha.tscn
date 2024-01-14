@@ -7,17 +7,17 @@
 radius = 9.0
 height = 21.875
 
-[node name="hacha" type="Node2D" groups=["Flor"]]
+[node name="hacha" type="Node2D" groups=["hacha"]]
 script = ExtResource("1_q48oj")
 
-[node name="Node2D" type="Area2D" parent="."]
+[node name="Node2D" type="Area2D" parent="." groups=["hacha"]]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Node2D" groups=["Flor"]]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Node2D" groups=["hacha"]]
 position = Vector2(0, 4)
 scale = Vector2(1, 0.64)
 shape = SubResource("CapsuleShape2D_fvreb")
 
-[node name="Sprite2D" type="Sprite2D" parent="." groups=["Flor"]]
+[node name="Sprite2D" type="Sprite2D" parent="." groups=["hacha"]]
 position = Vector2(-4, 0)
 texture = ExtResource("2_om4cc")
 

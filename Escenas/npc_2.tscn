@@ -18,7 +18,7 @@ texture = ExtResource("2_4g8en")
 position = Vector2(0, 9)
 shape = SubResource("CapsuleShape2D_havj2")
 
-[node name="Control" parent="." instance=ExtResource("3_2p5l7")]
+[node name="Control1" parent="." instance=ExtResource("3_2p5l7")]
 offset_left = -71.0
 offset_top = -97.0
 offset_right = -71.0
